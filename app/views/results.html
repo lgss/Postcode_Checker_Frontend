@@ -29,45 +29,82 @@
     <div class="govuk-grid-column-two-thirds">
 
       <h1 class="govuk-heading-xl">
-        Results
+        Results for (insert postcode here)
       </h1>
 
-      <p>The following are related to the postcode you entered:
+      <h2 class="govuk-heading-m"> <label for="width-10">
+        The following are related to the postcode you entered:      
+      </label> </h2>
         <p>
-          <a href="https://www.gov.uk/guidance/leicester-lockdown-what-you-can-and-cannot-do">Leicester Lockdown</a>
+          <h3 class="govuk-heading-m">
+            Guidance 1
+          </h3>
         </p>
         <p>
-          <a href="https://www.gov.uk/guidance/luton-local-restrictions">Luton</a>
+          <a href="https://www.gov.uk/coronavirus">Follow national lockdown guidelines.</a>
+        <h3 class="govuk-heading-m"> 
+            Guidance 2
+        </h3>
+        <p>
+          <a href="https://www.gov.uk/guidance/leicester-lockdown-what-you-can-and-cannot-do">
+            There are currently localised lockdown measures in effect for the postcode you entered.</a><br>
+            These measures will be reviewed on: Monday 17th August 2020.
+          <p class="govuk-!-font-weight-bold">
+            DO:
+          </p>
+          <ul class="govuk-list govuk-list--bullet">
+          <li>Guidance note 1</li>
+          <li>Guidance note 2</li>
+          <li>Guidance note 3</li>
+        </ul>
         </p>
+        <p class="govuk-!-font-weight-bold">
+          DON'T:
+        </p>
+        <ul class="govuk-list govuk-list--bullet">
+        <li>Guidance note 1</li>
+        <li>Guidance note 2</li>
+        <li>Guidance note 3</li>
+      </ul>
+      </p>
+        </p>
+        <p>  <a href="/start" role="button" draggable="false" class="govuk-button govuk-button--start" data-module="govuk-button">
+          Look for another postcode
+          <svg width="17.5" height="19">
+          </svg></a></p>
       </p>
 
-      <p style="padding-top: 50px; text-emphasis: bold;"><a href="https://www.gov.uk/coronavirus"><strong>Remember to always follow government guidelines on Coronavirus.</strong> </a></p>
-
+      <p style="padding-top: 50px; text-emphasis: bold;"><a href="https://www.gov.uk/coronavirus"><strong>Remember to always follow government guidelines.</strong> </a></p>
     </div>
-    <div class="govuk-grid-column-one-third">
+    
+      <div class="govuk-grid-column-one-third">
 
-      <aside class="app-related-items" role="complementary">
-        <h2 class="govuk-heading-m" id="subsection-title">
-          Useful links
-        </h2>
-        <nav role="navigation" aria-labelledby="subsection-title">
-          <ul class="govuk-list govuk-!-font-size-16">
-            <li>
-              <a href="https://www.gov.uk/government/collections/local-restrictions-areas-with-an-outbreak-of-coronavirus-covid-19">
-                Areas with local restrictions in place
-              </a>
-            </li>
-            <li>
-              <a href="https://www.gov.uk/coronavirus" class="govuk-!-font-weight-bold">
-                More on Coronavirus <span class="govuk-visually-hidden">in Useful links</span>
-              </a>
-            </li>
-          </ul>
-          <img src="/public/images/stay alert, control the virus, save lives.png" alt="stay alert, control the virus, save lives">
-        </nav>
-      </aside>
-
+        <aside class="app-related-items" role="complementary">
+          <h2 class="govuk-heading-m" id="subsection-title">
+            Useful links
+          </h2>
+          <nav role="navigation" aria-labelledby="subsection-title">
+            <ul class="govuk-list govuk-!-font-size-16">
+              <li>
+                <a href="https://www.gov.uk/government/collections/local-restrictions-areas-with-an-outbreak-of-coronavirus-covid-19">
+                  Areas with local restrictions in place
+                </a>
+              </li>
+              <li>
+                <a href="https://www.gov.uk/guidance/governments-approach-to-managing-local-coronavirus-outbreaks"> Government's approach to managing local coronavirus outbreaks</a>
+              </li>
+              <li>
+                <a href="https://www.gov.uk/government/publications/coronavirus-outbreak-faqs-what-you-can-and-cant-do/coronavirus-outbreak-faqs-what-you-can-and-cant-do">Coronavirus outbreak FAQs</a>
+              </li>
+              <li>
+                <a href="https://www.gov.uk/coronavirus" class="govuk-!-font-weight-bold">
+                  More on coronavirus <span class="govuk-visually-hidden">in Useful links</span>
+                </a>
+              </li>
+            </ul>
+            <img src="/public/images/stay alert, control the virus, save lives.png" alt="stay alert, control the virus, save lives">
+          </nav>
+        </aside>
+      </div>
     </div>
-  </div>
-
 {% endblock %}

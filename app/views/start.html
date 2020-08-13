@@ -30,8 +30,9 @@
         {% if serviceName %} {{ serviceName }} {% endif %}
       </h1>
 
-      <p>Use this service to check any postcode for:</p>
-
+      <h2 class="govuk-heading-m"> <label for="width-10">
+        Use this service to check any postcode for:      
+      </label> </h2>
       <ul class="govuk-list govuk-list--bullet">
         <li>Guidelines, restrictions and other information about Covid-19.</li>
       </ul>
@@ -42,43 +43,6 @@
           <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"></path>
         </svg>
       </a>
-
-      <h2 class="govuk-heading-m">Before you start</h2>
-
-      <p>Always remember to stay safe and <a href="https://www.gov.uk/coronavirus"> follow government guidelines.</a></p>
-
       <p>This tool does not store any of your personal data.</p>
     </div>
-
-    <div class="govuk-grid-column-one-third">
-
-      <aside class="app-related-items" role="complementary">
-        <h2 class="govuk-heading-m" id="subsection-title">
-          Useful links
-        </h2>
-        <nav role="navigation" aria-labelledby="subsection-title">
-          <ul class="govuk-list govuk-!-font-size-16">
-            <li>
-              <a href="https://www.gov.uk/government/collections/local-restrictions-areas-with-an-outbreak-of-coronavirus-covid-19">
-                Areas with local restrictions in place
-              </a>
-            </li>
-            <li>
-              <a href="https://www.gov.uk/guidance/governments-approach-to-managing-local-coronavirus-outbreaks"> Government's approach to managing local coronavirus outbreaks</a>
-            </li>
-            <li>
-              <a href="https://www.gov.uk/government/publications/coronavirus-outbreak-faqs-what-you-can-and-cant-do/coronavirus-outbreak-faqs-what-you-can-and-cant-do">Coronavirus outbreak FAQs</a>
-            </li>
-            <li>
-              <a href="https://www.gov.uk/coronavirus" class="govuk-!-font-weight-bold">
-                More on coronavirus <span class="govuk-visually-hidden">in Useful links</span>
-              </a>
-            </li>
-          </ul>
-          <img src="/public/images/stay alert, control the virus, save lives.png" alt="stay alert, control the virus, save lives">
-        </nav>
-      </aside>
-
-    </div>
-  </div>
 {% endblock %}
