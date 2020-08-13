@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Results
+{% endblock %}
+
+{% block header %}
+<style>
+.header {
+  padding: wrap_content;
+  text-align: center;
+  background: #006599;
+  color: white;
+  font-size: 30px;
+}
+</style>
+<div class="header">
+  <h1>Northbridgeshire County Council</h1>
+</div>
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="/enter_postcode">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        Results
+      </h1>
+
+      <p>The following are related to the postcode you entered:
+        <p>
+          <a href="https://www.gov.uk/guidance/leicester-lockdown-what-you-can-and-cannot-do">Leicester Lockdown</a>
+        </p>
+        <p>
+          <a href="https://www.gov.uk/guidance/luton-local-restrictions">Luton</a>
+        </p>
+      </p>
+
+      <p style="padding-top: 50px; text-emphasis: bold;"><a href="https://www.gov.uk/coronavirus"><strong>Remember to always follow government guidelines on Coronavirus.</strong> </a></p>
+
+    </div>
+    <div class="govuk-grid-column-one-third">
+
+      <aside class="app-related-items" role="complementary">
+        <h2 class="govuk-heading-m" id="subsection-title">
+          Useful links
+        </h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="govuk-list govuk-!-font-size-16">
+            <li>
+              <a href="https://www.gov.uk/government/collections/local-restrictions-areas-with-an-outbreak-of-coronavirus-covid-19">
+                Areas with local restrictions in place
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gov.uk/coronavirus" class="govuk-!-font-weight-bold">
+                More on Coronavirus <span class="govuk-visually-hidden">in Useful links</span>
+              </a>
+            </li>
+          </ul>
+          <img src="/public/images/stay alert, control the virus, save lives.png" alt="stay alert, control the virus, save lives">
+        </nav>
+      </aside>
+
+    </div>
+  </div>
+
+{% endblock %}
